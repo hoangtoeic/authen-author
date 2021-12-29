@@ -1,6 +1,6 @@
 import { Body, Controller, Get, Post, Req, Request, SetMetadata, UseGuards, ValidationPipe } from '@nestjs/common';
 import { AuthGuard } from '@nestjs/passport';
-import { User } from 'src/users/entities/user.entity';
+import { User } from 'src/db/entities/user.entity';
 import { AuthService } from './auth.service';
 import { getUser } from './decorator/create-param.decorator';
 import { Roles } from './decorator/roles.decorator';

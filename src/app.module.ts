@@ -8,7 +8,7 @@ import { ProjectModule } from './project/project.module';
 import { Project } from './project/entities/project.entity';
 import { AuthModule } from './auth/auth.module';
 import { UsersModule } from './users/users.module';
-import { User } from './users/entities/user.entity';
+import { User } from './db/entities/user.entity';
 
 @Module({
   

@@ -4,7 +4,7 @@ import {JwtService} from '@nestjs/jwt'
 import { InjectRepository } from '@nestjs/typeorm';
 import { UserRepository } from 'src/users/user.repository';
 import { Repository } from 'typeorm';
-import { User } from 'src/users/entities/user.entity';
+import { User } from 'src/db/entities/user.entity';
 import { AuthCredentialDto } from './dto/authCredentialsDto.auth';
 import { jwtPayload } from './jwt-payload.interface';
 import { loginDto } from './dto/loginDto.auth';
